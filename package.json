@@ -1,6 +1,6 @@
 {
   "name": "@revibe-dev/revibe-blk-system-styles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An SCSS styling library used to change the styling of a website/component library.",
   "main": ".",
   "scripts": {
