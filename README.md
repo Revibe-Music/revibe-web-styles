@@ -7,7 +7,7 @@ The styles used are designed by [Invision](https://www.invision.com) and coded b
 ### --Start Copyright Notice--
 
   ==========================================================  
-  BLK Design System PRO React - v1.0.0 based on BLK Design System PRO - v1.0.0
+  BLK Design System PRO React - v1.0.0 based on BLK Design System PRO - v1.0.0  
   \=========================================================
 
   Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
