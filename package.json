@@ -1,6 +1,6 @@
 {
   "name": "revibe-blk-system-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An SCSS styling library used to change the styling of a website/component library.",
   "main": ".",
   "scripts": {
@@ -29,16 +29,16 @@
     "stylelint-scss": "^3.18.0",
     "watch": "^1.0.2"
   },
-  "browserslist": [    
-    "last 1 major version",    
-    ">= 1%",    
-    "Chrome >= 45",    
-    "Firefox >= 38",    
-    "Edge >= 12",    
-    "Explorer >= 10",    
-    "iOS >= 9",    
-    "Safari >= 9",    
-    "Android >= 4.4",    
-    "Opera >= 30"  
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
   ]
 }
