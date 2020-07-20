@@ -1,0 +1,44 @@
+{
+  "name": "revibe-blk-system-styles",
+  "version": "1.0.0",
+  "description": "An SCSS styling library used to change the styling of a website/component library.",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:lint": "stylelint --config build/.stylelintrc --syntax scss \"scss/**/*.scss\" --cache --cache-location \"build/.stylelintcache/\"",
+    "css:compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/blk-design-system-pro-react.scss blk-design-system-pro-react.css",
+    "css:prefix": "postcss --config build/postcss.config.js --replace \"*.css\" \"!*.min.css\"",
+    "css:minify": "cleancss --level 1 --source-map --source-map-inline-sources --output blk-design-system-pro-react.min.css blk-design-system-pro-react.css",
+    "css": "npm run css:lint && npm run css:compile && npm run css:prefix && npm run css:minify",
+    "yarn-css": "yarn css:lint && yarn css:compile && yarn css:prefix && yarn css:minify"
+  },
+  "keywords": [
+    "Revibe",
+    "Styles"
+  ],
+  "author": "Revibe Developer Team",
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "clean-css-cli": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "postcss-cli": "^7.1.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0",
+    "watch": "^1.0.2"
+  },
+  "browserslist": [    
+    "last 1 major version",    
+    ">= 1%",    
+    "Chrome >= 45",    
+    "Firefox >= 38",    
+    "Edge >= 12",    
+    "Explorer >= 10",    
+    "iOS >= 9",    
+    "Safari >= 9",    
+    "Android >= 4.4",    
+    "Opera >= 30"  
+  ]
+}
