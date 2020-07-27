@@ -20,3 +20,7 @@ The styles used are designed by [Invision](https://www.invision.com) and coded b
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 ### --End Copyright Notice--
+
+### Styles In Action
+[Revibe Music](https://revibe.tech)  
+[Revibe Artists](https://artist.revibe.tech)
