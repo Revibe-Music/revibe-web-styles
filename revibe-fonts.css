@@ -1,0 +1,31 @@
+/*!
+
+ =========================================================
+ * BLK Design System PRO React - v1.0.0 based on BLK Design System PRO - v1.0.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+/*    Custom Revibe Styling for Specific Pages      */
+@font-face {
+  font-family: "FuturaDemi";
+  src: url("../fonts/FuturaPTDemi.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuturaHeavy";
+  src: url("../fonts/FuturaPTHeavy.otf");
+  font-weight: normal;
+  font-style: normal;
+}
